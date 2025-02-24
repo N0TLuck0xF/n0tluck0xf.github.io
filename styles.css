@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.cyber-title {
+    font-size: 5em;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: relative;
+    text-shadow: 0 0 10px rgba(255,255,255,0.5);
+}
+
+.cyber-title span {
+    display: inline-block;
+    animation: color-change 1.5s infinite;
+}
+
+@keyframes color-change {
+    0% { color: #ff0000; text-shadow: 0 0 20px #ff0000; }
+    25% { color: #00ff00; text-shadow: 0 0 20px #00ff00; }
+    50% { color: #0000ff; text-shadow: 0 0 20px #0000ff; }
+    75% { color: #ff00ff; text-shadow: 0 0 20px #ff00ff; }
+    100% { color: #ff0000; text-shadow: 0 0 20px #ff0000; }
+}
+
+.cyber-title span:nth-child(1) { animation-delay: 0.1s; }
+.cyber-title span:nth-child(2) { animation-delay: 0.2s; }
+.cyber-title span:nth-child(3) { animation-delay: 0.3s; }
+.cyber-title span:nth-child(4) { animation-delay: 0.4s; }
+.cyber-title span:nth-child(5) { animation-delay: 0.5s; }
+.cyber-title span:nth-child(6) { animation-delay: 0.6s; }
+.cyber-title span:nth-child(7) { animation-delay: 0.7s; }
+.cyber-title span:nth-child(8) { animation-delay: 0.8s; }
+.cyber-title span:nth-child(9) { animation-delay: 0.9s; }
+.cyber-title span:nth-child(10) { animation-delay: 1.0s; }
