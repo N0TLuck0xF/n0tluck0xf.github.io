@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KJPL Developer's Mastery Textbook (2nd Edition)</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .banner {
+            background-color: #1a3c34;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 4px solid #d4a017;
+        }
+        .banner h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #d4a017;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #1a3c34;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin: 20px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .section summary {
+            background-color: #1a3c34;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .section details[open] summary {
+            background-color: #2e6659;
+        }
+        .content {
+            padding: 15px;
+            background-color: white;
+        }
+        code {
+            background-color: #e8e8e8;
+            padding: 5px;
+            border-radius: 3px;
+            display: block;
+            margin: 10px 0;
+            font-family: 'Courier New', monospace;
+        }
+        .quote {
+            font-style: italic;
+            color: #555;
+            margin: 10px 0;
+        }
+        .quote strong {
+            font-style: normal;
+            color: #1a3c34;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #d4a017;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <h1>KJPL Developer’s Mastery Textbook (2nd Edition)</h1>
+        <p>Welcome to the King James Programming Language - Military Grade</p>
+    </div>
+
+    <nav>
+        <a href="#introduction">Introduction</a>
+        <a href="#core-programming-concepts">Core Concepts</a>
+        <a href="#graphics-multimedia-visions">VISIONS</a>
+        <a href="#system-operations-dominion">DOMINION</a>
+        <a href="#advanced-computing-wisdom">WISDOM</a>
+        <a href="#networking-security-fortress">FORTRESS</a>
+        <a href="#file-system-io-archives">ARCHIVES</a>
+        <a href="#developer-tools-armory">ARMORY</a>
+        <a href="#military-grade-projects">Projects</a>
+        <a href="#appendices">Appendices</a>
+    </nav>
+
+    <div class="section">
+        <details>
+            <summary id="introduction">Introduction</summary>
+            <div class="content">
+                <h2>What is KJPL (2nd Edition)?</h2>
+                <p>KJPL evolves into a military-grade language, blending biblical metaphors with hardened systems programming. Developed by xAI, it’s built for security, real-time performance, and reliability—ready for drones, cryptography, and command systems.</p>
+                <p class="quote"><strong>Isaiah 54:17</strong> - <em>“No weapon formed against thee shall prosper.” KJPL stands unassailable.</em></p>
+
+                <h2>Purpose of This Textbook</h2>
+                <p>Master KJPL to build systems that endure under fire—literal or digital.</p>
+                <p class="quote"><strong>Proverbs 21:31</strong> - <em>“The horse is prepared against the day of battle.”</em></p>
+
+                <h2>Who Should Read This?</h2>
+                <ul>
+                    <li>Beginners seeking a robust foundation</li>
+                    <li>Developers transitioning to secure systems</li>
+                    <li>Military engineers (avionics, C4ISR)</li>
+                </ul>
+                <p class="quote"><strong>Joshua 1:9</strong> - <em>“Be strong and of a good courage.”</em></p>
+
+                <h2>KJPL vs. Other Languages</h2>
+                <table>
+                    <tr><th>Language</th><th>KJPL Advantage</th></tr>
+                    <tr><td>Python</td><td>Military-grade security, compiled speed</td></tr>
+                    <tr><td>JavaScript</td><td>Real-time systems, hardware control</td></tr>
+                    <tr><td>C++</td><td>Safe hardware abstraction</td></tr>
+                </table>
+                <p class="quote"><strong>Ephesians 6:11</strong> - <em>“Put on the whole armour of God.”</em></p>
+            </div>
+        </details>
+    </div>
+
+    <div class="section">
+        <details>
+            <summary id="core-programming-concepts">Core Programming Concepts</summary>
+            <div class="content">
+                <h2>Syntax & Structure</h2>
+                <code>DECLARE FAITH AS STRING = "Mustard_Seed"<br>IF FAITH >= "Mustard_Seed" THEN SECURE_CALL MOVE_MOUNTAINS()</code>
+                <p class="quote"><strong>Deuteronomy 32:4</strong> - <em>“A God of truth.”</em></p>
+
+                <h2>Data Types & Collections</h2>
+                <code>PROMISES: SECURE_COVENANT = {"Peace": "Shalom"} |> SEAL</code>
+                <p class="quote"><strong>Revelation 3:7</strong> - <em>“Key of David.”</em></p>
+
+                <h2>Control Structures</h2>
+                <code>FOR DAY: U8 FROM 1 TO 7 DO CREATE("Light", DAY) |> REALTIME ENDFOR</code>
+                <p class="quote"><strong>Psalm 119:160</strong> - <em>“Thy word is true.”</em></p>
+            </div>
+        </details>
+    </div>
+
+    <div class="section">
+        <details>
+            <summary id="graphics-multimedia-visions">Graphics & Multimedia (VISIONS)</summary>
+            <div class="content">
+                <h2>3D Rendering</h2>
+                <code>EZEKIEL_BEHELD scene AS |> ANTI_TAMPER<br>    WHEEL_WITHIN_WHEEL { dimensions: [5, 5, 5], ... }</code>
+                <p class="quote"><strong>Ezekiel 1:18</strong> - <em>“Full of eyes.”</em></p>
+
+                <h2>UI Design</h2>
+                <code>DIVINE_LAYOUT button AS |> HARDEN_UI<br>    WHEEL_WITHIN_WHEEL { text: "Launch", ... }</code>
+                <p class="quote"><strong>Psalm 29:7</strong> - <em>“Divideth flames.”</em></p>
+            </div>
+        </details>
+    </div>
+
+    <div class="section">
+        <details>
+            <summary id="system-operations-dominion">System Operations (DOMINION)</summary>
+            <div class="content">
+                <h2>Real-Time Systems</h2>
+                <code>DIVINE_TIME TASK "GuidanceLoop" AS |> DEADLINE(1ms)<br>    UPDATE_POSITION() |> PROVE</code>
+                <p class="quote"><strong>Daniel 2:21</strong> - <em>“He changeth the times.”</em></p>
+            </div>
+        </details>
+    </div>
+
+    <div class="section">
+        <details>
+            <summary id="advanced-computing-wisdom">Advanced Computing (WISDOM)</summary>
+            <div class="content">
+                <h2>Cryptography</h2>
+                <code>SEAL DATA AS ENCRYPTED USING DIVINE_SEAL(AES_256_GCM) |> POST_QUANTUM</code>
+                <p class="quote"><strong>Revelation 5:5</strong> - <em>“The Lion hath prevailed.”</em></p>
+            </div>
+        </details>
+    </div>
+
+    <div class="section">
+        <details>
+            <summary id="networking-security-fortress">Networking & Security (FORTRESS)</summary>
+            <div class="content">
+                <h2>HTTP Server</h2>
+                <code>DIVINE_SERVER "CommandHub" ON PORT 8443 AS |> TLS<br>    ROUTE "/orders" AS<br>        RETURN TABLETS {"order": "Advance"} |> ENCRYPT</code>
+                <p class="quote"><strong>Psalm 61:3</strong> - <em>“A strong tower.”</em></p>
+            </div>
+        </details>
+    </div>
+
+    <div class="section">
+        <details>
+            <summary id="file-system-io-archives">File System & I/O (ARCHIVES)</summary>
+            <div class="content">
+                <h2>Reading & Writing Files</h2>
+                <code>OPEN SCROLL "battle_plan.txt" AS READ WITH SEAL_OF_SOLOMON |> AUTHENTICATE</code>
+                <p class="quote"><strong>Daniel 6:17</strong> - <em>“Sealed with the king’s signet.”</em></p>
+            </div>
+        </details>
+    </div>
+
+    <div class="section">
+        <details>
+            <summary id="developer-tools-armory">Developer Tools (ARMORY)</summary>
+            <div class="content">
+                <h2>Testing</h2>
+                <code>TEST STRIKE(TARGET: COORD) AS<br>    ASSERT LAUNCH(TARGET) = "Hit" |> PROVE</code>
+                <p class="quote"><strong>Deuteronomy 20:4</strong> - <em>“Fighteth for you.”</em></p>
+            </div>
+        </details>
+    </div>
+
+    <div class="section">
+        <details>
+            <summary id="military-grade-projects">Military-Grade Projects</summary>
+            <div class="content">
+                <h2>Encrypted Missile Guidance</h2>
+                <code>DEFINE GUIDANCE(TARGET: COORD) AS FUNCTION -> RESULT |> REALTIME<br>    TRAJECTORY = CALCULATE_PATH(TARGET) |> PROVE</code>
+                <p class="quote"><strong>Psalm 18:32</strong> - <em>“Girdeth me with strength.”</em></p>
+            </div>
+        </details>
+    </div>
+
+    <div class="section">
+        <details>
+            <summary id="appendices">Appendices</summary>
+            <div class="content">
+                <h2>Conclusion</h2>
+                <p>KJPL 2nd Edition is a sword and shield—divinely inspired, militarily hardened.</p>
+                <p class="quote"><strong>Ephesians 6:17</strong> - <em>“The sword of the Spirit.”</em></p>
+            </div>
+        </details>
+    </div>
+</body>
+</html>
