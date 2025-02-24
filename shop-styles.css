@@ -1,5 +1,3 @@
-/* shop-styles.css */
-
 /* Shop Page Specific Styles */
 .shop-grid {
     display: grid;
@@ -78,6 +76,26 @@
 .cyber-button.neon-green:hover {
     box-shadow: 0 0 25px var(--neon-green);
     transform: scale(1.05);
+}
+
+/* Escrow Form Styles */
+.escrow-form {
+    display: inline-block;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.escrow-button {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.escrow-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px var(--neon-green);
 }
 
 /* Responsive Shop Grid */
