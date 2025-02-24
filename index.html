@@ -5,6 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>N0TLuck0xF</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Inline CSS for the new KJPL button */
+        .kjpl-button {
+            display: inline-block;
+            padding: 20px 40px;
+            font-size: 36px;
+            font-family: 'Courier New', monospace;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #fff;
+            background: linear-gradient(90deg, #ff00ff, #00ffff, #ff00ff);
+            background-size: 200% 200%;
+            border: 3px solid #00ffff;
+            border-radius: 8px;
+            box-shadow: 0 0 20px #ff00ff, 0 0 40px #00ffff;
+            animation: flashGlow 1.5s infinite alternate, gradientShift 4s infinite;
+            transition: transform 0.3s, box-shadow 0.3s;
+            margin-top: 20px;
+        }
+
+        .kjpl-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 30px #ff00ff, 0 0 60px #00ffff;
+            color: #000;
+            background: #fff;
+        }
+
+        @keyframes flashGlow {
+            0% { opacity: 1; box-shadow: 0 0 20px #ff00ff, 0 0 40px #00ffff; }
+            50% { opacity: 0.7; box-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff; }
+            100% { opacity: 1; box-shadow: 0 0 20px #ff00ff, 0 0 40px #00ffff; }
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .kjpl-button span {
+            display: inline-block;
+            transition: color 0.3s;
+        }
+
+        .kjpl-button:hover span {
+            color: #000;
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -19,7 +67,6 @@
                 <a href="education.html"><span>E</span><span>D</span><span>U</span></a>
                 <a href="gitclassacademy.html"><span>G</span><span>I</span><span>T</span></a>
                 <a href="outlawburnerproject.html"><span>O</span><span>B</span><span>P</span></a>
-                <!-- New "More Pages" Button -->
                 <a href="more-pages.html"><span>M</span><span>O</span><span>R</span><span>E</span></a>
             </div>
         </div>
@@ -38,19 +85,30 @@
                 </a>
                 <a href="https://keybase.io/gitfunded/" target="_blank" class="cyber-button neon-cyan">
                     <span>F</span><span>U</span><span>E</span><span>L</span>
-                    <span>&nbsp;</span>
+                    <span> </span>
                     <span>T</span><span>H</span><span>E</span>
-                    <span>&nbsp;</span>
+                    <span> </span>
                     <span>C</span><span>O</span><span>D</span><span>E</span>
                 </a>
             </div>
+
+            <!-- New Flashing KJPL Button -->
+            <a href="kjpl-docs.html" class="kjpl-button">
+                <span>N</span><span>0</span><span>T</span><span>L</span><span>u</span><span>c</span><span>k</span><span>0</span><span>x</span><span>F</span>
+                <span> </span>
+                <span>H</span><span>u</span><span>g</span><span>e</span>
+                <span> </span>
+                <span>P</span><span>r</span><span>o</span><span>j</span><span>e</span><span>c</span><span>t</span>
+                <span> </span>
+                <span>K</span><span>J</span><span>P</span><span>L</span><span>.</span><span>D</span><span>o</span><span>c</span><span>s</span>
+            </a>
         </div>
     </main>
 
     <footer class="cyber-footer">
         <div class="footer-content">
             <p>// CONNECTED TO MAINFRAME //</p>
-            <p>&copy; 2024 N0TLuck0xF. ALL SYSTEMS OPERATIONAL</p>
+            <p>© 2024 N0TLuck0xF. ALL SYSTEMS OPERATIONAL</p>
         </div>
     </footer>
 </body>
