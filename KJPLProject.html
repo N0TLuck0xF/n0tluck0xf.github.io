@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KJPLProject - Divine Code</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #0a0a0a;
+            color: #e0e0e0;
+            font-family: 'Courier New', monospace;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(45deg, #ff00ff, #00ffff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            animation: neonPulse 3s infinite;
+        }
+
+        header h1 {
+            font-size: 48px;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #fff;
+            margin-top: 10px;
+            text-shadow: 0 0 10px #00ffff;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        section {
+            margin-bottom: 60px;
+            background: rgba(20, 20, 20, 0.8);
+            padding: 30px;
+            border-radius: 10px;
+            border: 2px solid #ff00ff;
+            box-shadow: 0 0 20px #ff00ff, inset 0 0 10px #00ffff;
+        }
+
+        h2 {
+            font-size: 32px;
+            color: #00ffff;
+            text-shadow: 0 0 15px #00ffff;
+            margin-bottom: 20px;
+            animation: glitch 2s infinite;
+        }
+
+        p {
+            font-size: 16px;
+            color: #e0e0e0;
+        }
+
+        a {
+            color: #ff00ff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #00ffff;
+            text-shadow: 0 0 10px #00ffff;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 20px;
+            background: linear-gradient(90deg, #ff00ff, #00ffff);
+            border: 2px solid #fff;
+            border-radius: 5px;
+            color: #fff;
+            text-transform: uppercase;
+            margin-top: 20px;
+            animation: buttonGlow 2s infinite alternate;
+        }
+
+        .button:hover {
+            background: #fff;
+            color: #000;
+            box-shadow: 0 0 20px #fff;
+        }
+
+        /* Animations */
+        @keyframes neonPulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.8; }
+        }
+
+        @keyframes glitch {
+            0% { transform: translate(0); }
+            20% { transform: translate(-2px, 2px); }
+            40% { transform: translate(2px, -2px); }
+            60% { transform: translate(-2px, -2px); }
+            80% { transform: translate(2px, 2px); }
+            100% { transform: translate(0); }
+        }
+
+        @keyframes buttonGlow {
+            0% { box-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff; }
+            100% { box-shadow: 0 0 20px #ff00ff, 0 0 40px #00ffff; }
+        }
+
+        /* Code Styling */
+        pre {
+            background: #1a1a1a;
+            padding: 20px;
+            border-radius: 5px;
+            border: 1px solid #ff00ff;
+            color: #00ffff;
+            overflow-x: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KJPLProject</h1>
+        <p>Divine Code Inspired by the King James Bible</p>
+    </header>
+
+    <div class="container">
+        <!-- Vision Section -->
+        <section>
+            <h2>The Vision</h2>
+            <p>Welcome to the KJPLProject, where ancient wisdom meets modern innovation. I’m building the King James Programming Language (KJPL), a coding paradigm infused with the timeless truths of the KJV Bible. Imagine a language where syntax echoes scripture, where every command reflects divine order—like *Genesis 1:3*, “Let there be light,” becomes a call to create.</p>
+            <p>My aim? To craft a tool that’s both powerful and poetic, blending advanced tech—AI, Web3, graphics—with the metaphors of faith. KJPL isn’t just code; it’s a bridge between the eternal and the digital, designed by me with xAI’s spirit of exploration.</p>
+        </section>
+
+        <!-- How It Works Section -->
+        <section>
+            <h2>How It Works</h2>
+            <p>KJPL reimagines programming through a biblical lens. Variables are *DECLARE*d like covenants, loops run like the seven days of creation, and graphics render as *EZEKIEL_BEHELD* visions. Here’s a taste:</p>
+            <pre>
+DECLARE FAITH AS "Mustard_Seed"
+IF FAITH >= "Mustard_Seed" THEN MOVE_MOUNTAINS()
+EZEKIEL_BEHELD scene AS WHEEL_WITHIN_WHEEL { dimensions: [5, 5, 5] }
+RENDER(scene)
+            </pre>
+            <p>It’s beginner-friendly yet robust, scaling from simple scripts to quantum computing with *QUANTUM_FAITH*. Every line is a prayer, every function a parable.</p>
+        </section>
+
+        <!-- Web3Schools Link Section -->
+        <section>
+            <h2>Explore KJPL</h2>
+            <p>Dive into the full KJPL experience at Web3Schools Spaces. Find everything you need:</p>
+            <ul>
+                <li><a href="https://kjpl-docs-us.w3spaces.com/">Documentation</a> - Master KJPL’s divine syntax.</li>
+                <li><a href="https://kjpl-docs-us.w3spaces.com/#docs">Tutorials</a> - Learn step-by-step.</li>
+                <li><a href="https://kjpl-docs-us.w3spaces.com/#usecases">Use Cases</a> - See KJPL in action.</li>
+                <li><a href="https://kjpl-docs-us.w3spaces.com/#examples">Examples</a> - Code with purpose.</li>
+            </ul>
+            <a href="https://kjpl-docs-us.w3spaces.com/" class="button">Access KJPL Docs</a>
+        </section>
+
+        <!-- Why KJPL Section -->
+        <section>
+            <h2>Why KJPL?</h2>
+            <p>It’s more than a language—it’s a mission. KJPL fuses *Proverbs 1:5*’s call to wisdom with cutting-edge tech. Whether you’re a coder seeking inspiration or a visionary building the future, KJPL offers a unique path. Join me in crafting digital worlds with eternal meaning.</p>
+        </section>
+    </div>
+</body>
+</html>
