@@ -19,6 +19,7 @@ body {
     text-transform: uppercase;
     position: relative;
     text-shadow: 0 0 10px rgba(255,255,255,0.5);
+    margin-bottom: 50px;
 }
 
 .cyber-title span {
@@ -44,3 +45,45 @@ body {
 .cyber-title span:nth-child(8) { animation-delay: 0.8s; }
 .cyber-title span:nth-child(9) { animation-delay: 0.9s; }
 .cyber-title span:nth-child(10) { animation-delay: 1.0s; }
+
+/* New Button Styles */
+.cyber-button {
+    display: inline-block;
+    padding: 20px 40px;
+    text-decoration: none;
+    position: relative;
+    border: 3px solid;
+    border-image: linear-gradient(45deg, #ff0000, #00ff00, #0000ff, #ff00ff);
+    border-image-slice: 1;
+    animation: border-animate 4s linear infinite;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-top: 30px;
+}
+
+.cyber-button span {
+    display: inline-block;
+    font-size: 2em;
+    font-weight: 900;
+    text-transform: uppercase;
+    animation: color-change 1.5s infinite;
+}
+
+.cyber-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px rgba(255,255,255,0.6);
+}
+
+@keyframes border-animate {
+    0% { border-image: linear-gradient(45deg, #ff0000, #00ff00, #0000ff, #ff00ff) 1; }
+    25% { border-image: linear-gradient(135deg, #ff00ff, #ff0000, #00ff00, #0000ff) 1; }
+    50% { border-image: linear-gradient(225deg, #0000ff, #ff00ff, #ff0000, #00ff00) 1; }
+    75% { border-image: linear-gradient(315deg, #00ff00, #0000ff, #ff00ff, #ff0000) 1; }
+    100% { border-image: linear-gradient(45deg, #ff0000, #00ff00, #0000ff, #ff00ff) 1; }
+}
+
+.cyber-button span:nth-child(1) { animation-delay: 0.1s; }
+.cyber-button span:nth-child(2) { animation-delay: 0.2s; }
+.cyber-button span:nth-child(3) { animation-delay: 0.3s; }
+.cyber-button span:nth-child(4) { animation-delay: 0.4s; }
+.cyber-button span:nth-child(5) { animation-delay: 0.5s; }
