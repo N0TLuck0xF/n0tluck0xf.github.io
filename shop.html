@@ -45,20 +45,44 @@
                     </div>
                 </div>
 
-                <!-- Product 2 -->
+                <!-- Product 2 - Hacker's Handbook with Escrow Button -->
                 <div class="product-card">
                     <div class="product-image" style="background-image: url('https://via.placeholder.com/400x300');"></div>
                     <div class="product-info">
                         <h3 class="product-title">Hacker's Handbook</h3>
                         <p class="product-description">Complete guide to ethical hacking techniques.</p>
                         <div class="product-price">$29.99</div>
-                        <button class="cyber-button neon-green">
-                            <span>A</span><span>D</span><span>D</span>
-                            <span>&nbsp;</span>
-                            <span>T</span><span>O</span>
-                            <span>&nbsp;</span>
-                            <span>C</span><span>A</span><span>R</span><span>T</span>
-                        </button>
+                        
+                        <!-- Escrow.com Payment Form -->
+                        <form action="https://www.escrow.com/checkout" method="post" target="_blank" class="escrow-form">
+                            <input type="hidden" name="type" value="domain_name">
+                            <input type="hidden" name="non_initiator_email" value="bitoutlaws@gmail.com">
+                            <input type="hidden" name="non_initiator_id" value="3548011">
+                            <input type="hidden" name="non_initiator_role" value="seller">
+                            <input type="hidden" name="title" value="hackers handbook">
+                            <input type="hidden" name="currency" value="USD">
+                            <input type="hidden" name="domain" value="https://n0tluck0xf.github.io/shop.html">
+                            <input type="hidden" name="price" value="29.99">
+                            <input type="hidden" name="concierge" value="false">
+                            <input type="hidden" name="with_content" value="true">
+                            <input type="hidden" name="inspection_period" value="2">
+                            <input type="hidden" name="fee_payer" value="buyer">
+                            <input type="hidden" name="return_url" value="https://n0tluck0xf.github.io/">
+                            <input type="hidden" name="button_types" value="both">
+                            <input type="hidden" name="auto_accept" value="29.99">
+                            <input type="hidden" name="auto_reject" value="29.99">
+                            <input type="hidden" name="item_key" value="undefined">
+                            
+                            <button type="submit" class="cyber-button neon-green escrow-button">
+                                <span>B</span><span>U</span><span>Y</span>
+                                <span>&nbsp;</span>
+                                <span>W</span><span>I</span><span>T</span><span>H</span>
+                                <span>&nbsp;</span>
+                                <span>E</span><span>S</span><span>C</span><span>R</span><span>O</span><span>W</span>
+                            </button>
+                            
+                            <img src="https://t.escrow.com/1px.gif?name=bin&price=29.99&title=hackers%20handbook&user_id=3548011" style="display: none;">
+                        </form>
                     </div>
                 </div>
 
