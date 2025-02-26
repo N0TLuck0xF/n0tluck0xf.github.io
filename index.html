@@ -52,6 +52,76 @@
         .kjpl-button:hover span {
             color: #000;
         }
+        
+        /* WebBrowser.M0d button styles */
+        .webbrowser-button {
+            display: inline-block;
+            padding: 20px 40px;
+            font-size: 36px;
+            font-family: 'Courier New', monospace;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #fff;
+            background: linear-gradient(90deg, #00ff66, #0066ff, #00ff66);
+            background-size: 200% 200%;
+            border: 3px solid #00ff66;
+            border-radius: 8px;
+            box-shadow: 0 0 20px #0066ff, 0 0 40px #00ff66;
+            animation: webGlow 1.5s infinite alternate, webGradient 4s infinite;
+            transition: transform 0.3s, box-shadow 0.3s;
+            margin-top: 20px;
+            display: block;
+            max-width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+
+        .webbrowser-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 30px #0066ff, 0 0 60px #00ff66;
+            color: #000;
+            background: #fff;
+        }
+
+        @keyframes webGlow {
+            0% { opacity: 1; box-shadow: 0 0 20px #0066ff, 0 0 40px #00ff66; }
+            50% { opacity: 0.7; box-shadow: 0 0 10px #0066ff, 0 0 20px #00ff66; }
+            100% { opacity: 1; box-shadow: 0 0 20px #0066ff, 0 0 40px #00ff66; }
+        }
+
+        @keyframes webGradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .webbrowser-button span {
+            display: inline-block;
+            animation: textFlicker 0.5s infinite alternate;
+        }
+
+        @keyframes textFlicker {
+            0% { opacity: 1; }
+            25% { opacity: 0.8; }
+            50% { opacity: 1; }
+            75% { opacity: 0.9; }
+            100% { opacity: 1; }
+        }
+
+        /* Make each letter flicker at a slightly different time */
+        .webbrowser-button span:nth-child(2n) {
+            animation-delay: 0.1s;
+        }
+        .webbrowser-button span:nth-child(3n) {
+            animation-delay: 0.2s;
+        }
+        .webbrowser-button span:nth-child(5n) {
+            animation-delay: 0.3s;
+        }
+        .webbrowser-button span:nth-child(7n) {
+            animation-delay: 0.4s;
+        }
     </style>
 </head>
 <body>
@@ -102,6 +172,21 @@
                 <span>P</span><span>r</span><span>o</span><span>j</span><span>e</span><span>c</span><span>t</span>
                 <span> </span>
                 <span>K</span><span>J</span><span>P</span><span>L</span><span>.</span><span>D</span><span>o</span><span>c</span><span>s</span>
+            </a>
+            
+            <!-- WebBrowser.M0d Button -->
+            <a href="https://n0tluck0xf.github.io/WebBrowser.M0d/" class="webbrowser-button">
+                <span>W</span><span>E</span><span>B</span><span>B</span><span>R</span><span>O</span><span>W</span><span>S</span><span>E</span><span>R</span>
+                <span>.</span>
+                <span>M</span><span>0</span><span>D</span>
+                <span> </span>
+                <span>E</span><span>M</span><span>U</span>
+                <span> </span>
+                <span>F</span><span>O</span><span>R</span>
+                <span> </span>
+                <span>W</span><span>O</span><span>R</span><span>L</span><span>D</span><span>M</span><span>0</span><span>D</span>
+                <span> </span>
+                <span>M</span><span>M</span><span>O</span><span>R</span><span>P</span><span>G</span>
             </a>
         </div>
     </main>
