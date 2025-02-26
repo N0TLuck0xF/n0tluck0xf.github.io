@@ -17,10 +17,10 @@
             font-family: 'Courier New', monospace;
             line-height: 1.6;
             overflow-x: hidden;
+            text-align: center;
         }
 
         header {
-            text-align: center;
             padding: 50px 20px;
             background: linear-gradient(45deg, #ff00ff, #00ffff);
             -webkit-background-clip: text;
@@ -48,6 +48,7 @@
             border-radius: 10px;
             border: 2px solid #ff00ff;
             box-shadow: 0 0 20px #ff00ff, inset 0 0 10px #00ffff;
+            text-align: left;
         }
 
         h2 {
@@ -72,24 +73,33 @@
         }
 
         .github-link {
-            text-align: center;
             margin-top: 30px;
         }
 
         .github-link a {
             display: inline-block;
-            padding: 10px 20px;
-            font-size: 18px;
-            color: #fff;
             background: #ff00ff;
+            color: white;
+            padding: 10px 20px;
             border-radius: 5px;
             text-decoration: none;
+            font-weight: bold;
             transition: 0.3s;
         }
 
         .github-link a:hover {
             background: #00ffff;
+            box-shadow: 0 0 10px #00ffff;
         }
+
+        .coming-soon {
+            font-size: 20px;
+            font-weight: bold;
+            color: #ff00ff;
+            text-shadow: 0 0 10px #ff00ff;
+            margin-top: 50px;
+        }
+
     </style>
 </head>
 <body>
@@ -129,10 +139,15 @@
             <p>KRJPLMod seamlessly integrates AI models and quantum computing frameworks, optimizing AI-driven predictions, real-time deep learning, and quantum cryptographic solutions.</p>
         </section>
 
-        <section>
+        <section class="coming-soon">
             <h2>KRJPLMod.org Coming Soon</h2>
-            <p>
-                We are currently developing an official website for KRJPLMod, which will serve as the central hub for documentation, tutorials, and updates.
-                Until then, you can find the full documentation and syntax for KRJPLMod on our GitHub repository.
-            </p>
-    
+            <p>We're working on an official KRJPLMod.org site for full documentation, tutorials, and community features.</p>
+            <div class="github-link">
+                <a href="https://github.com/N0TLuck0xF/KRJPLMOD" target="_blank">
+                    📜 View KRJPLMod Documentation
+                </a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
